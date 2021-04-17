@@ -182,6 +182,10 @@ class circleHeart @JvmOverloads constructor(context: Context, attrs: AttributeSe
         val path = Path()
         path.moveTo(mData[0], mData[1]-aplitude0*tslation0)
 
+
+
+
+
         path.cubicTo(mCtrl[0], mCtrl[1], mCtrl[2], mCtrl[3], mData[2], mData[3])
         path.cubicTo(mCtrl[4] -aplitude2*tslation0, mCtrl[5], mCtrl[6],   mCtrl[7]+aplitude1*tslation0, mData[4], mData[5])
         path.cubicTo(mCtrl[8],mCtrl[9]+aplitude1*tslation0, mCtrl[10]+aplitude2*tslation0, mCtrl[11], mData[6], mData[7])
