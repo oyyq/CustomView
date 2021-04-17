@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ddRoundView">
+        <attr name="roundCorner" format="dimension" />
+        <attr name="roundPadding" format="dimension" />
+        <attr name="roundCoverColor" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ddShakeView">
+        <attr name="shakeCorner" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ddProgressBar">
+        <attr name="circleRadius" format="dimension"/>
+        <attr name="circleWidth" format="dimension"/>
+        <attr name="circleColor" format="color" />
+        <attr name="proColor" format="color"/>
+        <attr name="proWidth" format="dimension" />
+        <attr name="txColor" format="color"/>
+        <attr name="txSize" format="dimension"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="switchingMultiButton">
+        <attr name="strokeRadius" format="dimension"/>
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="txSize2" format="dimension"/>
+        <attr name="selectedTab" format="integer"/>
+        <attr name="selectedColor" format="color|reference"/>
+    </declare-styleable>
+
+
+
+</resources>
