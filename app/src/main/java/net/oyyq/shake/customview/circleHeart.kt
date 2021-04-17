@@ -82,6 +82,7 @@ ValueAnimator animator = ValueAnimator.ofFloat(0f,200f);
 
 /**
  * 3阶Bezier曲线实现圆形转心形
+ * timeStamp: 2020-4-17 9:09:47
  */
 class circleHeart @JvmOverloads constructor(context: Context, attrs: AttributeSet, defStyleattr: Int = 0) :
         View(context, attrs, defStyleattr){
@@ -190,8 +191,6 @@ class circleHeart @JvmOverloads constructor(context: Context, attrs: AttributeSe
         canvas.drawPath(path, mPaint)
     }
 
-
-
     class heartEvaluator : TypeEvaluator<Float>{
         override fun evaluate(fraction: Float, startValue: Float, endValue: Float): Float {
             return (endValue-startValue)*fraction + startValue
@@ -200,3 +199,6 @@ class circleHeart @JvmOverloads constructor(context: Context, attrs: AttributeSe
     }
 
 }
+
+
+
