@@ -82,7 +82,7 @@ ValueAnimator animator = ValueAnimator.ofFloat(0f,200f);
 
 /**
  * 3阶Bezier曲线实现圆形转心形
- * timeStamp: 2020-4-17 9:29:10
+ * timeStamp: 2020-4-17 9:37:05
  */
 class circleHeart @JvmOverloads constructor(context: Context, attrs: AttributeSet, defStyleattr: Int = 0) :
         View(context, attrs, defStyleattr){
